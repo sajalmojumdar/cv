@@ -1,0 +1,89 @@
+html {
+  background: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  width: 80%;
+  margin: auto;
+  color: #444;
+}
+header {
+  background: #ededed;
+  padding: 20px 40px;
+  overflow: hidden;
+}
+.header_left {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+.header_left_img {
+  float: left;
+}
+.header_left_img img {
+  width: 100px;
+  border-radius: 50%;
+}
+.header_left_content {
+  float: left;
+  margin-left: 20px;
+}
+.header_right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.header_right .contact {
+  display: inline-block;
+  text-align: left;
+}
+.header_right .contact p {
+  margin: 5px;
+}
+
+
+.content {
+  clear: both;
+  padding: 20px 40px;
+}
+.row {
+  border-bottom: 2px solid teal;
+  overflow: hidden;
+  clear: both;
+}
+.row:last-child {
+  border-bottom: none;
+}
+.col_left {
+  float: left;
+  width: 25%;
+} 
+.col_left h2 {
+  font-style: italic;
+}
+.col_right {
+  float: left;
+  width: 75%;
+} 
+
+.col_right .smaller {
+  margin: 0;
+  font-style: italic;
+}
+.col_right h2 {
+  margin-bottom: 2px;
+}
+
+.same_width_column {
+  width: 33%;
+  float: left;
+}
+
+input, label {
+  display: block;
+}
+form {
+  margin-top: 20px;
+}
